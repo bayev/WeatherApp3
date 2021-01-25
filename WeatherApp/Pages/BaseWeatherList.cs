@@ -11,7 +11,7 @@ namespace WeatherApp.Pages
     {
         public IEnumerable<Weather> WeatherForcasts { get; private set; }
 
-
+        //calling method a razor component life cycle method which gets called during component initialization
         protected override Task OnInitializedAsync()
         {
             LoadWeather();
@@ -23,7 +23,7 @@ namespace WeatherApp.Pages
         {
             Weather w1 = new Weather
             {
-                Id = 1,
+                WeatherID = 1,
                 Date = new DateTime(2016,01,01),
                 Location = "Ute",
                 Temperature = 23.3M,
@@ -32,7 +32,7 @@ namespace WeatherApp.Pages
             };
             Weather w2 = new Weather
             {
-                Id = 1,
+                WeatherID = 1,
                 Date = new DateTime(2016, 01, 02),
                 Location = "Ute",
                 Temperature = 24.3M,
@@ -41,7 +41,7 @@ namespace WeatherApp.Pages
             };
             Weather w3 = new Weather
             {
-                Id = 1,
+                WeatherID = 1,
                 Date = new DateTime(2016, 01, 03),
                 Location = "Ute",
                 Temperature = 25.3M,

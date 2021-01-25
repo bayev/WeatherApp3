@@ -6,7 +6,7 @@ namespace WEManagement.Models
 {
      public class Weather
     {
-        public int Id { get; set; }
+        public int WeatherID { get; set; }
         public DateTime Date { get; set; }
         public string Location { get; set; }
         public decimal Temperature { get; set; }

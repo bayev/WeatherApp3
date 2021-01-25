@@ -4,6 +4,32 @@
 
 <h3>WeatherList</h3>
 
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Temp (C)</th>
+            <th>Humid</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var wData in WeatherForcasts)
+        {
+            <tr>
+                <td>@wData.WeatherID</td>
+                <td>@wData.Date.ToShortDateString()</td>
+                <td>@wData.Location</td>
+                <td>@wData.Temperature</td>
+                <td>@wData.Humidity</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
 @code {
 
 }

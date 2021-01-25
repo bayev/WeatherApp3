@@ -17,7 +17,7 @@ namespace WeatherApp.Pages
         {
             LoadEmployees();
             return base.OnInitializedAsync();
-            
+             
         }
         // Hard voded data - trying out the list output
         private void LoadEmployees()
@@ -34,7 +34,7 @@ namespace WeatherApp.Pages
             };
             Employee e2 = new Employee
             {
-                EmployeeId = 1,
+                EmployeeId = 2,
                 FirstName = "Bert",
                 LastName = "Doe",
                 Email = "bert.doe@gmail.com",
@@ -44,7 +44,7 @@ namespace WeatherApp.Pages
             };
             Employee e3 = new Employee
             {
-                EmployeeId = 1,
+                EmployeeId = 3,
                 FirstName = "John",
                 LastName = "Deep",
                 Email = "john.deep@gmail.com",
