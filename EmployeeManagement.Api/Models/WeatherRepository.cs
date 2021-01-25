@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.Api.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +16,10 @@ namespace ApiManagement.Api.Models
         {
             this.appDbContext = appDbContext;
         }
-        public Task<IEnumerable<Weather>> GetWeatherData()
+        public async Task<IEnumerable<Weather>> GetWeatherData()
         {
-            throw new NotImplementedException();
+            return await appDbContext.Weather.ToListAsync();
+  
         }
     }
 }

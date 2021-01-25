@@ -6,7 +6,7 @@ using WEManagement.Models;
 
 namespace ApiManagement.Api.Models
 {
-    interface IWeatherRepository
+    public interface IWeatherRepository
     {
         Task<IEnumerable<Weather>> GetWeatherData();
     }
