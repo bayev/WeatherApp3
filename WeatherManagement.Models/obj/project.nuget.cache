@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kgsALu04qbGWaZQGaC/VSlq8STrl2TwwNhWC2yjSWesELs4lPHthcaBvyvO2O1MwHWeUQWYRcHZkJ3+11cAU1Q==",
+  "dgSpecHash": "vSfZdflJS21aL6yXfyaWD/GUivAIyAWiSYXbvXL6H4N6zKz8wtLKpQ7LPkfobYq/WCOK8nXQWddwO/jvzkrVvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\WeatherApp3\\WeatherManagement.Models\\WEManagement.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azama\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Azama\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Azama\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Azama\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

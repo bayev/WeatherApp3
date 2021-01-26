@@ -47,3 +47,4 @@ C:\Users\Azama\Desktop\code\dotnet\WeatherApp3\WeatherApp\obj\Debug\netcoreapp3.
 C:\Users\Azama\Desktop\code\dotnet\WeatherApp3\WeatherApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\WeatherList.razor.g.cs
 C:\Users\Azama\Desktop\code\dotnet\WeatherApp3\WeatherApp\obj\Debug\netcoreapp3.1\Razor\Pages\EmployeeList.razor.g.cs
 C:\Users\Azama\Desktop\code\dotnet\WeatherApp3\WeatherApp\obj\Debug\netcoreapp3.1\Razor\Pages\WeatherList.razor.g.cs
+C:\Users\Azama\Desktop\code\dotnet\WeatherApp3\WeatherApp\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll

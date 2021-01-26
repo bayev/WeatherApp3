@@ -16,10 +16,31 @@ namespace ApiManagement.Api.Models
         {
             this.appDbContext = appDbContext;
         }
+
+        public Task<Weather> AddWeatherDay(Weather weather)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteWeather(int WeatherID)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Weather>> GetWeatherData()
         {
             return await appDbContext.Weather.ToListAsync();
   
+        }
+
+        public async Task<Weather> GetWeatherDay(int WeatherID)
+        {
+            return await appDbContext.Weather.FirstOrDefaultAsync(e => e.WeatherID == WeatherID);
+        }
+
+        public Task<Weather> UpdateWeatherDay(Weather weather)
+        {
+            throw new NotImplementedException();
         }
     }
 }
